@@ -1,17 +1,17 @@
 // Pthon File Remaining Questions 
 
 //  Q8;
-// var result1=prompt("enter marks of subject 1");
-// console.log(result1);
-// var result2=prompt("enter marks of subject 2");
-// console.log(result2);
-// var result3=prompt("enter marks of subject 3");
-// console.log(result3);
-// if(result1>=40 && result2>=40 && result3>=40){
-//     console.log("Pass")
-// }else{
-//     console.log("fail")
-// }
+var result1=prompt("enter marks of subject 1");
+console.log(result1);
+var result2=prompt("enter marks of subject 2");
+console.log(result2);
+var result3=prompt("enter marks of subject 3");
+console.log(result3);
+if(result1>=40 && result2>=40 && result3>=40){
+    console.log("Pass")
+}else{
+    console.log("fail")
+}
 
 
 // Q9:
@@ -77,3 +77,43 @@ if(numA==numB){
     console.log("The numbers are different")
 }
 
+// Q6:
+var number1 = 1;
+var number2 = 12;
+if(number1>number2){
+    console.log("First is larger")
+}else{
+    console.log("Second is larger")
+}
+
+// Q7:
+var numbernew = 12;
+if(numbernew>=100){
+    console.log("Too big")
+}else{
+    console.log("within range")
+}
+
+// Q8:
+var score = 20;
+if(score>=50){
+    console.log("You Passed!")
+}else{
+    console.log("You Failed")
+}
+
+// Q9:
+var temp = 13;
+if(temp>=30){
+    console.log("It's Hot")
+}else{
+    console.log("It's Not Hot")
+}
+
+// Q10:
+var numbersecond = 0;
+if(numbersecond==0){
+    console.log("Zero")
+}else{
+    console.log("Not Zero")
+}
