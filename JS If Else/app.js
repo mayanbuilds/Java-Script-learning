@@ -1,17 +1,17 @@
 // Pthon File Remaining Questions 
 
 //  Q8;
-var result1=prompt("enter marks of subject 1");
-console.log(result1);
-var result2=prompt("enter marks of subject 2");
-console.log(result2);
-var result3=prompt("enter marks of subject 3");
-console.log(result3);
-if(result1>=40 && result2>=40 && result3>=40){
-    console.log("Pass")
-}else{
-    console.log("fail")
-}
+// var result1=prompt("enter marks of subject 1");
+// console.log(result1);
+// var result2=prompt("enter marks of subject 2");
+// console.log(result2);
+// var result3=prompt("enter marks of subject 3");
+// console.log(result3);
+// if(result1>=40 && result2>=40 && result3>=40){
+//     console.log("Pass")
+// }else{
+//     console.log("fail")
+// }
 
 
 // Q9:
@@ -36,5 +36,44 @@ if(mealidentifier>=6 && mealidentifier<=10){
 
 // Python File Remaining Questions Done!!!!
 
+// Q1:
+var age = 18;
+if(age>=18 && age<=100){
+    console.log("You are an Adult")
+}else if(age>=0 && age<=17){
+    console.log("you are a minor")
+}
+else{console.log("not eligible")}
 
+// Q2:
+var num = 18;
+if(num>=0 ){
+    console.log("positive")
+}else{
+    console.log("Negative")
+}
+
+// Q3:
+var num1 = 18;
+if(num1%2==0 ){
+    alert("positive number")
+}else{alert("odd number")}
+
+// Q4:
+var username = prompt("Enter Your Username")
+console.log("username")
+if(username=="admin"){
+    console.log("Welcome Admin")
+}else{
+    console.log("Access denied")
+}
+
+// Q5:
+var numA = 11;
+var numB = 12;
+if(numA==numB){
+    console.log("Both numbers are same")
+}else{
+    console.log("The numbers are different")
+}
 
